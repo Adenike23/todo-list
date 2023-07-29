@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 30%;
+    background-color: #fff;
+    box-shadow: 0 0 20px #ddd;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #eee;
+}
+.todo{
+    font-size: 25px;
+    font-weight: 500;
+}
+.error{
+    background-color: red;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    padding: 3px;
+    display: none;
+}
+header i{
+    font-size: 23px;
+}
+.date{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.date h4{
+    text-align: end;
+}
+.inputs{
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+input{
+    all: unset;
+    padding: 12px;
+    border: 2px solid grey;
+    width: 100%;
+}
+button{
+    all: unset;
+    background-color: blue;
+    padding: 10px 1rem;
+    color: #fff;
+    font-size: 20px;
+}
+ul{
+    margin-top: 1rem;
+    list-style-type: none;
+}
+ul li{
+    margin: 5px 0;
+    font-size: 20px;
+}
+@media screen and (max-width:992px) {
+    main{
+        width: 70%;
+    }
+}
