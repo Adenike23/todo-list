@@ -66,6 +66,9 @@ ul li{
     margin: 5px 0;
     font-size: 20px;
 }
+.clear, .clear2{
+    display: none;
+}
 @media screen and (max-width:992px) {
     main{
         width: 70%;
